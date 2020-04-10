@@ -8,11 +8,11 @@ In this blog post we will develop strategy for `Stocks Buying and Selling`.
 
 
 ## 1. Best Time to Buy and Sell Stock
-`Link -` https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+[`Link`](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) 
 
-### Explanation
+## Explanation
 
-**Evaluating from Left to Right**
+### Evaluating from Left to Right
 
 We want to calculate the difference between any general point and previous valley(minima). This explains the necessity to store the minima.
 
@@ -38,7 +38,8 @@ public:
 ```
 
 
-**Evaluating from Right to Left**
+### Evaluating from Right to Left
+
 
 We want to calculate the difference between any general point and previous valley(PEAK). This explains the necessity to store the PEAK.
 
@@ -65,9 +66,10 @@ public:
 
 
 ## 2. Best Time to Buy and Sell Stock
-`Link -` https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+[`Link`](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) 
 
-### Explanation
+
+## Explanation
 
 This is a typical peak-valley problem. Our aim is to add all the profits that we can make by buying stock at `Day A` and then sell at `Day A+1`. The aggregate sum is the answer.
 

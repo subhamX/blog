@@ -7,21 +7,21 @@ export default () => {
     query {
         linkedIn: file(relativePath: {eq: "linkedin-logo.png"}){
             childImageSharp {
-              fixed(width: 50, height: 50){
+              fixed(width: 35, height: 35){
                 ...GatsbyImageSharpFixed
               }
             }
           }
           github: file(relativePath: {eq: "github-logo.png"}){
             childImageSharp {
-                fixed(width: 50, height: 50){
+                fixed(width: 35, height: 35){
                     ...GatsbyImageSharpFixed
                   }
             }
           }
           resume: file(relativePath: {eq: "resume.png"}){
             childImageSharp {
-                fixed(width: 50, height: 50){
+                fixed(width: 35, height: 35){
                     ...GatsbyImageSharpFixed
                   }
             }

@@ -14,7 +14,9 @@ const IndexPage = ({ data }) => {
     <Layout>
       <SEO title="Home" />
       <Header siteTitle="Subham Sahu"></Header>
-      {blogData}
+      <div className='container'>
+        {blogData}
+      </div>
       <Footer></Footer>
     </Layout>
   )
