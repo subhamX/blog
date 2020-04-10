@@ -106,9 +106,23 @@ header{
     padding: 15px 0;
 }
 
-.blog-content h1, .blog-content h2, .blog-content h3{
+
+.blog-content h3{
+    margin: 18px 0;
+    color: rgb(169, 217, 245);
+}
+
+.blog-content h2{
+    margin: 18px 0;
+    color: rgb(204, 213, 255);
+}
+
+.blog-content h1{
     margin: 18px 0;
 }
-.blog-content a{
-    color: orange;
+
+code.language-text{
+    background-color: rgb(45, 45, 45) !important;
+    color:  rgb(226, 224, 224) !important;
+    padding: 0 10px !important;
 }
